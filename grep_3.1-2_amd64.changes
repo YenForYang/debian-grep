@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 12 Jul 2017 12:59:03 +0200
+Source: grep
+Binary: grep
+Built-For-Profiles: nobiarch nocheck
+Architecture: amd64
+Version: 3.1-2
+Distribution: unstable
+Urgency: low
+Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Changed-By: Santiago Ruano Rincón <santiago@debian.org>
+Description:
+ grep       - GNU grep, egrep and fgrep
+Closes: 868133
+Changes:
+ grep (3.1-2) unstable; urgency=low
+ .
+   * Replace 90-submitted-grep-man-Dt-updated.patch with
+     90-upstream-doc-define-Dt-string-in-man-page.patch (Closes: #868133)
+Checksums-Sha1:
+ d8020dfe5cea7ef1a4fbd70767a63f015822ac65 137288 grep-dbgsym_3.1-2_amd64.deb
+ e916b0608eff2ce85f5f8a1a85ba323d117b6c69 5706 grep_3.1-2_amd64.buildinfo
+ f887bb3aacf30e046cf8066ae39c65b18c7487df 398420 grep_3.1-2_amd64.deb
+Checksums-Sha256:
+ 6d342c408dc4f0a1b63385c005712c97455e6335c437a1c9845a26a498bb06ff 137288 grep-dbgsym_3.1-2_amd64.deb
+ 4a881fbb9eb30858237c092f1a138cdfccb69523d3db80bd82d996e87ef253a1 5706 grep_3.1-2_amd64.buildinfo
+ 4aaec69528e291bcd235dd5297573f059c05505f4f7ee384dcdb035e05d6632c 398420 grep_3.1-2_amd64.deb
+Files:
+ 19c1d753eeff32f4669f275de381f833 137288 debug optional grep-dbgsym_3.1-2_amd64.deb
+ 12abb764d42c435ccb6078eea2bc5a62 5706 utils required grep_3.1-2_amd64.buildinfo
+ 8b66235f6309a2b987a19f6556b3c830 398420 utils required grep_3.1-2_amd64.deb

@@ -1,0 +1,3 @@
+grep-dbgsym_3.1-2_amd64.deb debug optional automatic=yes
+grep_3.1-2_amd64.buildinfo utils required
+grep_3.1-2_amd64.deb utils required
